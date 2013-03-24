@@ -23,6 +23,7 @@
 [end]
 [submenu] (Net)
       [exec]   (firefox) {firefox}
+      [exec]   (transmission) {transmission-qt}
       [exec]   (links) {rxvt -e links fluxbox.org}
       [exec]   (pidgin) {pidgin}
       [exec]   (xchat) {xchat}
@@ -34,32 +35,16 @@
       [exec]   (emacs) {emacs}
 [end]
 [submenu] (File utils)
-      [exec]   (mc) {rxvt -e mc}
-	[exec] (rox) {rox}
+      [exec] (mc) {rxvt -e mc}
+      [exec] (rox) {rox}
 [end]
-[submenu] (Multimedia)
-[submenu] (Graphics)
+[submenu] (Media)
       [exec]   (gimp) {gimp}
-      [exec]   (xv) {xv}
-      [exec]   (xpaint) {xpaint}
-      [exec]   (xscreensaver-demo) {xscreensaver-demo}
-      [exec]   (xlock) {xlock}
-      [exec]   (krita) {krita}
-      [exec] (Mesa gears) {gears}
-[end]
-[submenu] (Audio)
-      [exec]   (xmms) {xmms}
-      [exec]   (aumix) {aumix}
-      [exec]   (kmix) {kmix}
-      [exec]   (amarok) {amarok}
-      [exec]   (audacious) {audacious}
       [exec]   (alsamixer) {rxvt -e alsamixer}
-[end]
-[submenu] (Video)
-      [exec]   (xine) {xine}
       [exec]   (gmplayer) {gmplayer}
+      [exec]   (k3b) {k3b}
 [end]
-[submenu] (X-utils)
+[submenu] (X)
       [exec]   (xfontsel) {xfontsel}
       [exec]   (xman) {xman}
       [exec]   (xload) {xload}
@@ -72,7 +57,6 @@
       [exec]   (gkrellm) {gkrellm}
       [exec] (Reload .Xdefaults) {xrdb -load $HOME/.Xdefaults}
 [end]
-[end]
 [submenu] (Office)
       [exec]   (xclock) {xclock}
       [exec]   (xcalc) {xcalc}
@@ -82,20 +66,11 @@
       [exec]   (gv) {gv}
       [exec]   (xfig) {xfig}
 [end]
-[submenu] (Games)
-      [exec]   (eboard) {eboard}
-      [exec]   (xboard) {xboard}
-      [exec]   (xsnow) {xsnow}
-      [exec]   (xeyes) {xeyes}
-[end]
-[submenu] (System Tools)
-[submenu] (Burning)
-      [exec]   (k3b) {k3b}
-[end]
+[submenu] (System)
       [exec]   (top) {rxvt -e top}
       [exec]   (powertop) {rxvt -e powertop}
 [end]
-[submenu] (Fluxbox menu)
+[submenu] (Fluxbox)
       [config] (Configure)
 [submenu] (System Styles) {Choose a style...}
       [stylesdir] (/usr/share/fluxbox/styles)
