@@ -37,7 +37,7 @@
 [submenu] (Development)
       [exec]   (arduino) {arduino}
       [exec]   (ipython) {rxvt -e ipython}
-      [exec    (erlang) {rxvt -e erl}
+      [exec]    (erlang) {rxvt -e erl}
 [end]
 [submenu] (Media)
       [exec]   (gimp) {gimp}
