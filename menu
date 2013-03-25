@@ -31,11 +31,16 @@
       [exec]   (xchat) {xchat}
       [exec]   (gftp) {gftp}
       [exec]   (xnmap) {xnmap}
+      [exec]   (wireshark) {wireshark}
       [exec]   (wpa_gui) {wpa_gui}
+[end]
+[submenu] (Development)
+      [exec]   (arduino) {arduino}
+      [exec]   (ipython) {rxvt -e ipython}
+      [exec    (erlang) {rxvt -e erl}
 [end]
 [submenu] (Media)
       [exec]   (gimp) {gimp}
-      [exec]   (alsamixer) {rxvt -e alsamixer}
       [exec]   (gmplayer) {gmplayer}
       [exec]   (k3b) {k3b}
 [end]
@@ -45,6 +50,7 @@
       [exec]   (xfig) {xfig}
 [end]
 [submenu] (System)
+      [exec]   (alsamixer) {rxvt -e alsamixer}
       [exec]   (top) {rxvt -e top}
       [exec]   (powertop) {rxvt -e powertop}
 [end]
