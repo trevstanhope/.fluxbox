@@ -30,6 +30,7 @@
       [exec]   (firefox) {firefox}
       [exec]   (transmission) {transmission-qt}
       [exec]   (pidgin) {pidgin}
+      [exec]   (liferea) {liferea}
       [exec]   (xchat) {xchat}
       [exec]   (gftp) {gftp}
       [exec]   (xnmap) {xnmap}
