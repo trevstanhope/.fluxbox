@@ -18,7 +18,7 @@
 [encoding] {UTF-8}
       [exec]   (Run) {fbrun }
       [exec]   (Files) {rox}
-      [exex]   (Terminal) {xterm}
+      [exec]   (Terminal) {xterm}
 [submenu] (Utilities)
       [exec]   (rox) {rox}
       [exec]   (xterm) {xterm}
